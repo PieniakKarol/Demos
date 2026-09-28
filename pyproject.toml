@@ -1,9 +1,9 @@
 [project]
 name = "demos"
 version = "0.1.0"
-description = "Add your description here"
+description = "Global demographics data lakehouse on Databricks"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 dependencies = [
     "pyspark>=4.0.4",
 ]
