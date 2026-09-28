@@ -1,0 +1,24 @@
+# Python / env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data
+data/
+*.parquet
+*.csv
+*.zip
+
+# Spark locally
+spark-warehouse/
+metastore_db/
+derby.log
+
+# macOS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets
+.env
